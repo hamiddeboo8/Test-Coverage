@@ -15,9 +15,9 @@
 	<target name="mkdir">
 	    <mkdir dir="${javaTargetDir}"/>
 	</target>
-	
+
 	<target name="compile" depends="mkdir">
-		<javac 	srcdir="${javaSourceDir}" 
+		<javac 	srcdir="${javaSourceDir}"
 				destdir="${javaTargetDir}"
 				includes="**/*.java"
 				target="1.2"

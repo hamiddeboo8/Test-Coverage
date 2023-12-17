@@ -25,9 +25,9 @@
 	<target name="mkdir">
         <mkdir dir="build/test"/>
 	</target>
-	
+
 	<target name="compile">
-		<javac 	srcdir="test" 
+		<javac 	srcdir="test"
 				destdir="build/test"
 				includes="**/*.java"
 				encoding="UTF-8"

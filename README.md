@@ -101,6 +101,9 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 
 [commit c3d8bf8ba854100b61ff2a09e2f238732818f618](https://github.com/hamiddeboo8/Test-Coverage/commit/c3d8bf8ba854100b61ff2a09e2f238732818f618)
 
+<i><u>
+تصاویر قسمت قبل
+</u></i>
 ### افزایش پوشش آزمون کلاس FootPassenger
 
 در این قسمت تابع زیر جهت تست crossedCrosswalk پیاده سازی شده است. برای این قسمت از آن جا که استفاده ای در سرویس های دیگر نداشت، یک سرویس نیز برای آن نوشته شد که مسئول این است اگر شخص مورد نظر از خیابان عبور کرده بود اما از خطوط عابرپیاده عبور نکرده بود خطای لازم را نمایش دهد.
@@ -111,9 +114,6 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 
 ![psi4](./images/t4.PNG)
 
-<i><u>
-تصاویر قسمت قبل
-</u></i>
 
 ### افزایش پوشش آزمون کلاس PersonException
 

@@ -17,5 +17,8 @@ public class PersonTest {
         p.setGender(Gender.M);
 
         assertEquals(p.getAge(),32);
+
+        p.setAge(45);
+        assertEquals(p.getAge(),45);
     }
 }

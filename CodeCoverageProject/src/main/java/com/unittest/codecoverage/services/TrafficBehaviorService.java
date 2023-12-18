@@ -6,5 +6,5 @@ import com.unittest.codecoverage.models.Traffic;
 public interface TrafficBehaviorService {
 	
 	public void footpassengerCrossTheStreet(Traffic currentTrafic, Footpassenger currentFootpassengerBehavior);
-	
+	public void footpassengerCrossTheCrossWalk(Footpassenger currentFootpassengerBehavior);
 }

@@ -25,5 +25,10 @@ public class TrafficBehaviorServiceImpl implements TrafficBehaviorService {
 		}
 		
 	}
+	@Override
+	public void footpassengerCrossTheCrossWalk(Footpassenger currentFootpassengerBehavior) {
+		if(!currentFootpassengerBehavior.crossedTheCrosswalk() && currentFootpassengerBehavior.crossedTheRoad())
+			throw new BehaviorException("You should walk through crosswalk!");
+	}
 
 }

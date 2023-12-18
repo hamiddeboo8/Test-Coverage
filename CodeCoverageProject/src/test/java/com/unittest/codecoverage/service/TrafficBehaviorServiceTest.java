@@ -50,4 +50,16 @@ public class TrafficBehaviorServiceTest {
 		
 	}
 
+	@Test
+	public void testFootpassengerCrossedTheCrosswalk_shouldThrowBehaviorExceptionWhenFootpassengerCrossesTheCrossWalkWhenTrafficLightIsGreen() {
+		Footpassenger currentFootpassengerBehavior = new Footpassenger();
+		currentFootpassengerBehavior.setCrossedTheCrosswalk(false);
+		currentFootpassengerBehavior.setCrossedTheRoad(true);
+
+		Assertions.assertThatThrownBy(() -> trafficBehaviorService.footpassengerCrossTheCrossWalk(currentFootpassengerBehavior))
+				.isInstanceOf(BehaviorException.class)
+				.hasMessage("You should walk through crosswalk!");
+
+	}
+
 }

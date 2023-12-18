@@ -27,7 +27,7 @@
 
 [commit 4c38cafe059d6cf8ad69b4ea2d2aaaca3ba73ae9](https://github.com/hamiddeboo8/Test-Coverage/commit/4c38cafe059d6cf8ad69b4ea2d2aaaca3ba73ae9)
 
-![pr](./images/t2.PNG)
+![pr2](./images/t2.PNG)
 
 ### افزایش پوشش آزمون کلاس Person
 
@@ -91,7 +91,7 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 
 [commit 5c234ecd6ea53968c37a6da8116dbb6818483529](https://github.com/hamiddeboo8/Test-Coverage/commit/5c234ecd6ea53968c37a6da8116dbb6818483529)
 
-![psi](./images/t1.PNG)
+![psi2](./images/t1.PNG)
 
 ### افزایش پوشش آزمون کلاس PersonValidator
 
@@ -107,9 +107,9 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 
 [commit 4565672f3ed95d609d79a733b49c1409efcf3f84](https://github.com/hamiddeboo8/Test-Coverage/commit/4565672f3ed95d609d79a733b49c1409efcf3f84)
 
-![psi](./images/t3.PNG)
+![psi3](./images/t3.PNG)
 
-![psi](./images/t4.PNG)
+![psi4](./images/t4.PNG)
 
 <i><u>
 تصاویر قسمت قبل

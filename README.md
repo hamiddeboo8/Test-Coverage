@@ -24,7 +24,10 @@
 ![pr](./images/testRepo.PNG)
 
 همچنین برای delete نیز تست نوشته شد تا میزان پوشش دهی PersonRepository افزایش یابد.
+
 [commit 4c38cafe059d6cf8ad69b4ea2d2aaaca3ba73ae9](https://github.com/hamiddeboo8/Test-Coverage/commit/4c38cafe059d6cf8ad69b4ea2d2aaaca3ba73ae9)
+
+![pr](./images/t2.PNG)
 
 ### افزایش پوشش آزمون کلاس Person
 
@@ -85,7 +88,10 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 ![psi](./images/personE&ps.PNG)
 
 همچنین دو تابع زیر مربوط به بررسی تابع delete در این کلاس اضافه شدند.
+
 [commit 5c234ecd6ea53968c37a6da8116dbb6818483529](https://github.com/hamiddeboo8/Test-Coverage/commit/5c234ecd6ea53968c37a6da8116dbb6818483529)
+
+![psi](./images/t1.PNG)
 
 ### افزایش پوشش آزمون کلاس PersonValidator
 
@@ -100,6 +106,10 @@ testGet_shouldThrowPersonExceptionWhenPersonNameIsNull
 در این قسمت تابع زیر جهت تست crossedCrosswalk پیاده سازی شده است. برای این قسمت از آن جا که استفاده ای در سرویس های دیگر نداشت، یک سرویس نیز برای آن نوشته شد که مسئول این است اگر شخص مورد نظر از خیابان عبور کرده بود اما از خطوط عابرپیاده عبور نکرده بود خطای لازم را نمایش دهد.
 
 [commit 4565672f3ed95d609d79a733b49c1409efcf3f84](https://github.com/hamiddeboo8/Test-Coverage/commit/4565672f3ed95d609d79a733b49c1409efcf3f84)
+
+![psi](./images/t3.PNG)
+
+![psi](./images/t4.PNG)
 
 <i><u>
 تصاویر قسمت قبل

@@ -110,4 +110,26 @@ public class PersonServiceTest {
 
     }
 
+    @Test
+    public void testDelete_shouldNotThrowPersonExceptionWhenPersonNameIsNull() {
+        List<String> expectedErrors = Lists.newArrayList("Name is required");
+        String expectedMessage = String.join(";", expectedErrors);
+        Person person = new Person();
+        person.setName("");
+        service.delete(person.getName());
+
+    }
+    @Test
+    public void testDelete_shouldThrowExceptionWhenPersonNameIsNotNull() {
+        List<String> expectedErrors = Lists.newArrayList("Name is required");
+        String expectedMessage = String.join(";", expectedErrors);
+        Person person = new Person();
+        person.setName("Hamid Deh");
+        person.setGender(Gender.M);
+        assertThatThrownBy(() -> service.delete(person.getName()))
+                .isInstanceOf(PersonException.class)
+                .hasFieldOrPropertyWithValue("errors", expectedErrors)
+                .hasMessage(expectedMessage);
+    }
+
 }
